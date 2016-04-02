@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ABOUT ME"
-        android:id="@+id/button"
+        android:id="@+id/btnAboutMe"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="false"
         android:layout_alignParentTop="false"
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/listView"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/btnAboutMe"
         android:layout_margin="20dp"
         android:layout_below="@+id/textView"
         android:background="#82ffffff" />

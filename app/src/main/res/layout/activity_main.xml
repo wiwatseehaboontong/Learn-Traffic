@@ -7,10 +7,35 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="alignsolution.seehaboontong.wiwat.learntraffic.MainActivity">
+    tools:context="alignsolution.seehaboontong.wiwat.learntraffic.MainActivity"
+    android:background="@drawable/wall7">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/head"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/h1"
+        android:textColor="@color/text" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT ME"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentRight="false" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_above="@+id/button"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/textView"
+        android:background="#82ffffff" />
 </RelativeLayout>
